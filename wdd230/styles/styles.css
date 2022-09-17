@@ -1,0 +1,36 @@
+header, main, footer, nav{
+    font-size: 18px;
+    line-height: 2;
+} 
+header {
+    display: grid;
+    justify-content: center;
+    /* align-content: center; */
+  
+    /* gap: 4px;
+    grid-auto-flow: column
+    text-align: center;
+    padding: 1.rem;
+    /* border: 30px; color: blue; */
+    /* background-color: blue; */
+    /* font-size: 25px;  */
+}
+h2{
+    text-align: center
+}
+
+nav{ 
+    display: grid;
+    justify-content: center;
+    
+    
+    /* grid-template-rows: 10,1fr; */
+    
+    
+}
+
+footer {
+    text-align: center;    
+    /* column-rule: ; */
+    
+}
