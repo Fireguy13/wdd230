@@ -1,19 +1,19 @@
 header, main, footer, nav{
+    font-family: 'Open Sans', sans-serif;
     font-size: 18px;
     line-height: 2;
 } 
-header {
-    display: grid;
-    justify-content: center;
-    /* align-content: center; */
-  
-    /* gap: 4px;
-    grid-auto-flow: column
+header {    
+    margin: 2rem;
+    background-color: blue;   
+}
+
+
+
+h1{
+   
     text-align: center;
-    padding: 1.rem;
-    /* border: 30px; color: blue; */
-    /* background-color: blue; */
-    /* font-size: 25px;  */
+    padding: 2;
 }
 h2{
     text-align: center
@@ -33,4 +33,11 @@ footer {
     text-align: center;    
     /* column-rule: ; */
     
+}
+.shane img {
+    grid-column: 1 / 2;
+  
+max-height: 10em;
+padding-top: 0.5em;
+margin: 0 auto;
 }
