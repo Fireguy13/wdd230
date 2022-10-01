@@ -5,7 +5,7 @@ header {
 	font-size: 30px;
 	text-align: center;
 	border-radius: 12px;
-	max-width: 650px;
+	max-width: 500px;
 	margin: 0 auto;
 }
 
@@ -22,7 +22,7 @@ footer {
 	text-align: center;
 	border-radius: 16px;
 	padding: 16px 5px 16px 5px;
-	max-width: 767px;
+	max-width: 400px;
 	margin: 20px auto;
 }
 
@@ -45,6 +45,7 @@ h2 {
 }
 
 a {
+	
 	font-family: "Sansita", Ubuntu, sans-serif;
 	font-weight: 200;
 	font-size: 35px;
@@ -53,7 +54,7 @@ a {
 }
 
 main {
-	max-width: 767px;
+	max-width: 600px;
 	margin: 0 auto;
 	display: grid;
 	grid-template-columns: 1fr;
@@ -66,7 +67,7 @@ main section h2 {
 
 main section {
 	margin: 0.5rem;
-	border: 1px solid #bbb;
+	border: 1px solid rgb(212, 16, 16);
 	padding: 0 1rem;
 	background-color: #eee;
 }
@@ -77,5 +78,5 @@ main section:nth-child(2) {
 }
 
 .colimage {
-	box-shadow: 0 0 30px rgb(127, 118, 118);
+	box-shadow: 0 0 30px rgb(61, 246, 5);
 }

@@ -1,0 +1,153 @@
+@charset "UTF-8"; /* not necessary */
+/* bluegrey matter   #637f80 light  #536872  #708090  #536878  #36454f dark */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	font-size: 16px;
+	font-family: "Sansita", Ubuntu, sans-serif;
+}
+
+header,
+footer {
+	background-color: #FFE34F;
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+	justify-content: center;
+	padding: 10px;
+}
+
+header,
+nav,
+main,
+footer {
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+h1 {
+	font-size: 2rem;
+}
+h2 {
+	padding: .5rem;
+	color: #536878;
+}
+
+p {
+	padding: .5rem;
+}
+
+nav {
+	background-color: #F88C29;
+	text-align: center;
+	box-shadow: 0 0 30px rgb(158, 174, 19);
+}
+
+nav {
+	display: flex;
+	flex-direction: column;
+}
+
+nav div {
+	flex: 1 1 auto;
+}
+
+nav a {
+	display: block;
+	color: #fff;
+	text-align: center;
+	padding: 15px;
+	text-decoration: none;
+	font-size: 0.9rem;
+}
+
+nav a:hover {
+	background-color: #708080;
+	color: #FFC434;
+}
+
+main {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	align-items: center;
+	justify-content: center;
+	font-size: 0.85rem;
+}
+
+main .submenu {
+	margin: 1rem;
+	border: 1px solid #bbb;
+	padding: 1rem;
+	background-color: #eee;
+}
+
+.submenu ul {
+	margin-left: 2rem;
+}
+
+main picture {
+	display: none;
+	margin: 1rem;
+}
+
+main article {
+	margin: 1rem;
+}
+
+footer {
+	display: flex;
+	padding: 1rem;
+	justify-content: space-between;
+	font-weight: 700;
+}
+
+
+
+footer{ 
+    background-color: #F88C29;
+    padding: 25px 50px;
+    margin-top: 200px;
+    background-color: #F88C29;
+    padding: 25px 50px;
+    margin-top: 200px; 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    } 
+    
+    header{ 
+        display: grid;
+        grid-template-columns: 150px auto;
+        /* background-color:#F02011; */
+	}
+          
+      #logo_link {
+        padding-top: 5px;
+        justify-self: center;
+        align-self: center;
+        width: 90px;
+        padding-top: 10px;
+      }
+
+      
+        
+      #background { 
+        height: 725px; 
+        grid-column: 1/11;
+        grid-row: 4/9;
+      }
+
+	  :root {
+		/* change the values below to your colors from your palette */
+		--primary-color: #FFE34F   ;
+		--secondary-color: #FFC434;
+		--accent1-color: #F88C29;
+		
+	  
+
+	  font-family: 'Roboto Condensed', sans-serif;
+
+	  font-family: 'Source Sans Pro', sans-serif;
