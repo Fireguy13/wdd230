@@ -1,0 +1,481 @@
+nav {
+
+  background-color: #0fdaf5; 
+	text-align: left;
+
+  color: white;
+  font-family: 'Jost', sans-serif;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+
+}
+
+.hamburgerBtn{
+  grid-row: 1;
+  grid-column: 1
+}
+
+.primaryNav {
+  grid-row: 2;
+  grid-column: 1/3;
+}
+
+.navSocial {
+  grid-row: 1;
+  grid-column: 2;
+  display: flex;
+  justify-content: right;
+  padding: 10px;
+  margin: 0;
+}
+
+.facebook, .twitter {
+  height: 30px;
+
+
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: none;
+}
+
+nav ul.open{display: block;}
+
+nav div {
+    flex: 1 1 auto;
+
+}
+
+
+nav li {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  margin: 0;
+  text-decoration: none;
+  font-family: 'Jost', sans-serif;
+  font-weight: 200;
+}
+
+nav a {
+  display: block;
+  color: white;
+  text-align: left;
+  padding: 10px;
+  margin: 0;
+  text-decoration: none;
+  font-family: 'Jost', sans-serif;
+  font-weight: 200;
+}
+
+
+nav a:hover {
+  background-color: #9e21d8; /* Desert Sand */
+  color: #29e0d7; 
+
+}
+
+nav a:active {
+  background:active #29e0d7; 
+}
+
+
+
+#hamburgerBtn span:nth-child(1) {display: block;}
+#hamburgerBtn span:nth-child(2) {display: none;}
+
+
+#hamburgerBtn.open span:nth-child(1) {display: none;}
+#hamburgerBtn.open span:nth-child(2) {display: block;}
+
+nav button {
+
+  background: #0fdaf5;
+  color: #29e0d7;
+  border: none;
+  margin: 0;
+  font-size: 2rem;
+  list-style-type: none;
+  border-radius: 0;
+  align-content: center;
+  text-align: left;
+}
+
+nav button:hover {
+
+  background: #9e21d8;
+  color: #1E2D2F;
+  border: none;
+  margin: 0;
+}
+
+
+button {
+  background-color: #679436; /* Maximum Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 8px;
+  width: 225px;
+
+}
+
+button:hover {
+  background: #9e21d8;
+  color: #1E2D2F;
+
+}
+
+button a {
+  color: white;
+  text-decoration: none;
+
+}
+
+.logo-box button {
+  display: none;
+
+}
+
+.logo-box {
+  display: block;
+  padding:  15px 15px 10px 15px;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  align-content: center;
+}
+/** .logo-box {
+  display: grid;
+  padding:  15px 15px 10px 15px;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  align-content: center;
+
+} **/
+
+
+header {
+  text-align: center;
+  align-items: center;
+  align-content: center;
+}
+
+
+.banner-pic-home {
+  display: none;
+}
+
+.heroImgMed{
+  display: block;
+  max-width:100%;
+}
+
+.welcomeBanner {
+  display: none;
+}
+
+
+
+.homeBox a {
+  color: #0fdaf5; 
+}
+
+.persona1 {
+  padding: 0;
+  margin: 0 0 0 5px;
+}
+
+.homeBox hr {
+  border:none;
+  height: 20px;
+ 	width: 80%;
+
+	margin-top: 0;
+	border-bottom: 1px solid #A85751
+
+
+}
+
+
+
+body {
+  background-color: white;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 16px;
+  color: #0b7886; 
+  padding: 0;
+  margin: 0;
+
+
+}
+
+
+
+main {
+  margin: 20px 15px 20px 15px;
+  padding: 0 1rem 0 1rem;
+}
+
+
+
+h3 {
+
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 35px;
+  color: #A85751; /* Redwood */
+  padding: 0;
+  margin: 0;
+}
+
+a {color: #679436; /* Maximum Green */}
+
+.homePage {
+  display: block;
+
+}
+
+.homeBox {
+  background-color: #2835a9;
+  padding: 2vw;
+  margin: 1rem 0;
+  min-height: 200px;
+
+}
+
+
+.heroImgMed {
+  display: block;
+  max-width:100%;
+}
+
+.heroBox {
+  display: block;
+  max-width:100%;
+  background-color: transparent;
+  border: 1px solid transparent;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+.heroBtn {
+  font-size: 12px;
+  width: 10rem;
+  padding: 10px 5px;
+  display: block;
+  position: absolute;
+  top: 75%;
+  left: 10%;
+}
+
+.eventBox {
+  text-align: center;
+}
+
+
+.weatherMain {
+  display: grid;
+  grid-template-columns: 2fr;
+}
+
+.weatherMinor {
+  text-align: center;
+}
+
+.weatherH3 {
+  text-align: center;
+  line-height: 80%;
+}
+
+.wIcon {
+  grid-row: 1;
+  grid-column: 1;
+  font-size: 4.5rem;
+  padding: 0;
+  margin: 0;
+}
+
+.temp {
+  grid-row: 1;
+  grid-column: 2;
+  font-size: 4rem;
+  padding: .5rem;
+  margin-top: 1rem;
+
+}
+
+.wStatus {
+  grid-row: 2;
+  grid-column: 1/3;
+  align-items: right;
+  text-align: right;
+  padding: 0 1rem 0 0;
+  margin: 0;
+
+}
+
+.newsBox {
+  text-align: center;
+}
+
+.spotBox {
+  height: auto;
+}
+.spotlight {
+  
+  border: 1px solid white;
+  padding: 2vw;
+  align-items: center;
+  text-align: center;
+  height: auto;
+  margin: 0;
+
+}
+
+.joinBox {
+  align-items: center;
+  text-align: center;
+  height: auto;
+  margin: 0;
+}
+
+
+.smallP {
+  font-size: 12px;
+  padding: 0;
+  margin: 0;
+}
+
+.hidden-sm{
+  display: none;
+}
+
+
+.hiFhide {
+  display: none;
+}
+
+.headBtnHide {
+  display: none;
+}
+
+footer {
+  display: block;
+  background-color: #0fdaf5; /* Charleston Green */
+  text-align: left;
+  color: white;
+  padding: 20px 10px 60px 0;
+}
+
+footer a {
+  color: #EDDBC0; /* rgb(237, 219, 192) */
+  font-size: 12px;
+  padding: 20px 10px 60px 0;
+  margin: 0 0 5px 45px;
+}
+
+footer p {
+  margin: 0 0 5px 45px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 12px;
+}
+footer h6 {
+  margin: 45px;
+  color: black;
+}
+
+footer hr{
+  margin: 20px 45px;
+  border-color: grey;
+}
+
+footer img {
+  margin: 0 0 5px 0;
+}
+/* table properties */
+
+table, th, td {
+  border: 1px solid white;
+  border-collapse: collapse;
+  padding-left: 15px;
+  text-align: left;
+  vertical-align: top;
+  margin-top: 0;
+}
+
+.persona-table table, th, td {
+  border: 1px solid grey;
+  padding: 20px 5px 15px 5px;
+  text-align: left;
+  vertical-align: top;
+}
+
+
+.colors td {
+  height: 60px;
+  vertical-align: middle;
+}
+
+.persona-table td {
+  vertical-align: top;
+
+}
+
+.color-table {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+  text-align: left;
+  max-width: 500px;
+}
+
+.ct-title {
+  grid-row: 1;
+  grid-column: 1/3;
+}
+.colors {
+  grid-row: 2;
+  grid-column:1/3;
+}
+
+.table-header {
+  background-color: white;
+  color: black;
+  padding: 10px;
+}
+
+.firstary {
+  background-color: #972D07; /* Rufous */;
+  color: white;
+}
+
+.secondary {
+    background-color: #A85751; /* Redwood */
+    color: white;
+  }
+
+.thirdary  {
+  background-color: #EABDA8; /* Desert Sand */
+  color: white;
+}
+
+.fourary  {
+  background-color: #679436; /* Maximum Green */
+  color: white;
+}
+
+.fiveary  {
+  background-color: #1E2D2F; /* Charleston Green */
+  color: white;
+}

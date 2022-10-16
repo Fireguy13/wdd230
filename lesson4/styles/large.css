@@ -2,32 +2,32 @@
 @media (min-width: 60em) {
 
 
-    /***** NAV MENU ****/
+  /***** NAV MENU ****/
 nav {
-  text-align: right;
+text-align: right;
 }
 
-      nav button {display: none;}
+    nav button {display: none;}
 
-      nav ul#primaryNav {
-          display: flex;}
-
-
+    nav ul#primaryNav {
+        display: flex;}
 
 
-  .banner-pic-home{
-      display: block;
-      max-width:100%
-  }
+
+
+.banner-pic-home{
+    display: block;
+    max-width:100%
+}
 
 /**** GRID LAYOUT ****/
 
 .homeBox{
-  min-height: 100px;
+min-height: 100px;
 
 }
 .hidden-sm{
-  display: block;
+display: block;
 }
 .homePage{
 display: grid;
@@ -36,40 +36,40 @@ grid-template-columns: 1fr 2fr 1fr;
 
 /* Left Column */
 .eventBox{
-  grid-column: 1;
-  grid-row:1;
+grid-column: 1;
+grid-row:1;
 }
 .weatherBox{
-  grid-column: 1;
-  grid-row:2;
+grid-column: 1;
+grid-row:2;
 }
 .joinBox{
-  grid-column: 1;
-  grid-row:3;
+grid-column: 1;
+grid-row:3;
 }
 
 /* Middle Column */
 .heroBox{
-  grid-column: 2;
-  grid-row:1/3;
+grid-column: 2;
+grid-row:1/3;
 }
 .newsBox{
-  grid-column: 2;
-  grid-row:3;
+grid-column: 2;
+grid-row:3;
 }
 
 /* Right Column */
 .spotBox{
-  grid-column: 3;
-  grid-row: 1/4;
+grid-column: 3;
+grid-row: 1/4;
 }
 .spots {
 display: block;
-  height: fit-content;
+height: fit-content;
 }
 
 .spotlight{
-  height: 250px;
+height: 250px;
 }
 
 
