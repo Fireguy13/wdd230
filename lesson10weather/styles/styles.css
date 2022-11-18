@@ -1,0 +1,37 @@
+body {
+    display: flex;
+    justify-content: center;
+    padding: 3rem;
+}
+.temperature {
+    border: 2px solid #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 3px 4px 10px #000;
+    padding: 1rem;
+    
+    min-width: 380px;
+    max-width: 400px;
+    background-color: rgba(25, 139, 0, 0.861);
+    color: #fff;
+}
+
+.temperature h1,
+.temperature h2 {
+    font-family: 'Darker Grotesque', sans-serif;
+}
+
+.temperature h1 {
+    font-size: 1.5rem;
+}
+
+.temperature h2 {
+    font-size: 1.1rem;
+}
+
+.temperature p,
+.temperature span,
+figcaption {
+    font-family: 'Jost', sans-serif;
+}
