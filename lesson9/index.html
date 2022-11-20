@@ -13,7 +13,7 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Lesson 6| Responsive Design  </title>
+        <title>Lesson 10| Using the Weather API </title>
     </div>
 </head>
 
@@ -26,32 +26,28 @@
                     <img src="images/logo-g03280ef91_640.png" alt="what" width="250">
                 </a>
             </div>
-                <!-- <button id="headerBtn" onclick=""></button> -->
-
-
-
-
-               
-                <nav>
-                    <button id="hamburgerBtn"> <span>&#9776;</span><span>X</span></button>
-                    <ul id="primaryNav">
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="discover.html">Discover</a></li>
-                        <li><a href="directory.html">Directory</a></li>
-                        <li><a href="join.html">Join</a></li>
-                        <li><a href="contact.html">Contact</a></li>
-                    </ul>
-                    <div class="navSocial">
-                        <a class="facebook" href="https://www.facebook.com/" target="_blank">
-                            <img src="images/facebook.png" alt="what" width="30">
-                        </a>
-                        <a class="twitrer" href="https://www.twitter.com/" target="_blank">
-                            <img src="images/twitter.png" alt="what" width="30">
-                        </a>
-                    </div>
-                    
-                </nav>
+            <!-- <button id="headerBtn" onclick=""></button> -->
             
+            <nav>
+                <button id="hamburgerBtn"> <span>&#9776;</span><span>X</span></button>
+                <ul id="primaryNav">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="discover.html">Discover</a></li>
+                    <li><a href="directory.html">Directory</a></li>
+                    <li><a href="join.html">Join</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <div class="navSocial">
+                    <a class="facebook" href="https://www.facebook.com/" target="_blank">
+                        <img src="images/facebook.png" alt="what" width="30">
+                    </a>
+                    <a class="twitrer" href="https://www.twitter.com/" target="_blank">
+                        <img src="images/twitter.png" alt="what" width="30">
+                    </a>
+                </div>
+
+            </nav>
+
         </header>
         <main class="homePage">
 
@@ -60,8 +56,7 @@
                     <source media="(max-width:200px)" srcset="images/wdd230-org-200.jpg">
                     <source media="(max-width:500px)" srcset="images/wdd230-org-500.jpg">
                     <source media="(max-width:800px)" srcset="images/wdd230-org-800.jpg">
-                    <img src="images/wdd230-org-1100.jpg"
-                        alt="what.">
+                    <img src="images/wdd230-org-1100.jpg" alt="what.">
                 </picture>
 
                 <button class="heroBtn">Join the Chamber</button>
@@ -76,12 +71,27 @@
             <div class="homeBox weatherBox">
                 <h3 class="weatherH3">Local Weather</h3>
                 <div class="weatherMain">
-                    <p class="wIcon"></p>
-                    <p class="temp"> 90°F </p>
+
+                    <p class="temp">
+                        <span id="current-temp"></span>
+                        °F </p>
+                    <figure>
+                        <img id="weather-icon" class="weatherImg" src="">
+                    </figure>
                     <p class="wStatus"> Partly Cloudy</p>
                 </div>
-                <div id="output">
-                    Wind Chill:
+                <div class="weatherMinor">
+                    <div class="sInput" role="separator">
+                        <p class="speed">
+                            Wilnd Speed
+                            <span id="windSpeed"> </span>
+                            MPH
+                        </p>
+                    </div>
+                    <p class="speed">
+                        Wind Chill
+                        <span id="windChill"></span>
+                    </p>
                 </div>
             </div>
 
@@ -148,6 +158,7 @@
         </footer>
         <script src="scripts/main2.js"></script>
         <script src="scripts/localStorege.js"></script>
+        <script src="scripts/weather.js"></script>
 
 
     </div>

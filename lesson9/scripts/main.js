@@ -25,17 +25,16 @@ function toggleMenu(){
   document.querySelector("#lastModified").textContent = `Last Modification: ${document.lastModified}`;
   
   //Banner ------------------------------------------------------------------------------
-  let bannerDay = new Date().getDay();
-  
-  const banner = document.querySelector('#banner');
-  if (bannerDay === 1 || bannerDay === 2){
-      banner.style.display = 'block';
-  } else{
-      banner.style.display = 'none';
-  }
-  
-  const close = document.querySelector('#close');
-  
-  close.addEventListener('click', () => {
-      banner.style.display = 'none';
-  })
+  function toggleMenu() {
+    document.getElementById("primaryNav").classList.toggle("open")
+    document.getElementById("hamburgerBtn").classList.toggle("open")
+
+}
+
+const x = document.getElementById('hamburgerBtn')
+x.onclick = toggleMenu
+
+// this is the upday time
+document.querySelector(
+	"#lastModified"
+).textContent = `Last Modification: ${document.lastModified}`;
