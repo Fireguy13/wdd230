@@ -3,7 +3,7 @@ body {
     height: 100vh;
     background-color: white;
     font-family: 'Darker Grotesque', sans-serif;
-    font-size: 17px;
+    font-size: 20px;
     color: #1E2D2F; /* Charleston Green */
     padding: 0;
     margin: 0;
@@ -150,7 +150,7 @@ body {
   
   
   button {
-    background-color: #679436; /* Maximum Green */
+    background-color: #5f6dec; 
     border: none;
     color: white;
     padding: 15px 32px;
@@ -173,11 +173,11 @@ body {
     text-decoration: none;
   }
   
-  .logo-box button {  /* Logo Header */
+  .logo-box button {  
     display: none;
   }
   
-  .headBtnHide {   /* Logo Header */
+  .headBtnHide {  
     display: none;
   }
   
@@ -216,12 +216,12 @@ body {
   }
   
   
-  .banner-pic-home {  /* Header */
+  .banner-pic-home {  
     display: none;
   }
   
   
-  .welcomeBanner { /* Header */
+  .welcomeBanner { 
     display: none;
   }
   
@@ -279,8 +279,8 @@ body {
     padding: 10px 5px;
     display: block;
     position: absolute;
-    top: 65%;
-    right: 10%;
+    top: 3%;
+    right: 5%;
   }
   
   /*****GRID BOX - EVENT ******/
@@ -365,19 +365,7 @@ body {
   
   /***** ID IDs ******/
   
-    /** HERO - shows on mobile**/
-  
-    /** EVENT - shows on mobile**/
-  
-    /** WEATHER - shows on mobile**/
-  
-    /** NEWS RELEASE - shows on mobile**/
-  
-    /** SPOTLIGHT 1 - shows on mobile**/
-  
-    /** SPOTLIGHT 2 - shows on mobile**/
-  
-    /** SPOTLIGHT 3 & JOIN - does NOT show on mobile.  **/
+    
     /** hidden using class .hidden-sm **/
   
   .hidden-sm{
@@ -400,7 +388,7 @@ body {
   }
   
   footer a {
-    color: #ffffff; /* rgb(237, 219, 192) */
+    color: #ffffff; 
     font-size: 12px;
     padding: 20px 10px 60px 0;
     margin: 0 0 5px 45px;
@@ -482,27 +470,27 @@ body {
   }
   
   .firstary {
-    background-color: #972D07; /* Rufous */;
+    background-color: #972D07; 
     color: white;
   }
   
   .secondary {
-      background-color: #A85751; /* Redwood */
+      background-color: #A85751; 
       color: white;
     }
   
   .thirdary  {
-    background-color: #EABDA8; /* Desert Sand */
+    background-color: #EABDA8; 
     color: white;
   }
   
   .fourary  {
-    background-color: #679436; /* Maximum Green */
+    background-color: #679436; 
     color: white;
   }
   
   .fiveary  {
-    background-color: #1E2D2F; /* Charleston Green */
+    background-color: #1E2D2F; 
     color: white;
   }
   .demographic_data_section {
