@@ -591,3 +591,10 @@ form label.top input:required{
 form label.top input:required:valid{
   border-left: green solid 6px;
 }
+.contactForm {
+  width:382px;
+}
+
+.contactForm {
+  vertical-align: top;
+}
