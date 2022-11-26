@@ -138,7 +138,7 @@ form label.top input, form label.top select {
 /********** CONTACT PAGE **********/
 .contactMain {
   width: 800px;
-  margin: 0 auto;
+  margin: 45px auto;
 }
 .bannerContainer h3 {
   color:#972D07;
@@ -157,18 +157,17 @@ form label.top input, form label.top select {
 .contactForm {
   width:380px;
   grid-row: 2;
-  grid-column: 1;
-  margin-right: 20px;
+  grid-column: 2;
+  margin-right: 110px;
 }
 
 .contactInfo {
   grid-row: 2;
-  grid-column: 2;
-  margin-left: 20px;
-  margin-top: 53px;
-
+  grid-column: 1;
+  margin-left: 138px;
+  margin-top: 22px;
 }
-
+  
 
 .bigMap {
   display: none;
