@@ -17,7 +17,7 @@
     display: grid;
     grid-template-columns: 1fr auto 1fr;
     justify-content: left;
-    align-items: right;
+    
   
   }
   
@@ -36,7 +36,7 @@
     margin-right: 0;
     margin-left:auto;
     padding-right: .5rem;
-    align-items: right;
+    
   }
   
   
@@ -45,7 +45,7 @@
         grid-column: 4;
         grid-row: 1;
         margin-bottom: 0;
-        width: 100;
+        
         justify-content: center;
       }
   
