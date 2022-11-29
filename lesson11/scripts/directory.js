@@ -20,7 +20,7 @@ function displayCompanies(company) {
     let url = document.createElement("a");
     let membership = document.createElement("div");
 
-    h2.textContent = `${company.name}`;
+    h2.textContent = `${company.h2}`;
     address.textContent = `${company.address}`;
     phone.textContent = `${company.phone}`;
     url.textContent = `${company.url}`;
@@ -29,7 +29,7 @@ function displayCompanies(company) {
     membership.textContent = `Membership Level: ${company.membership}`;
     membership.classList.add("membership");
 
-    logo.setAttribute("src", company.img);
+    logo.setAttribute("src", company.logo);
     logo.setAttribute("alt", `${company.name} logo`);
     logo.setAttribute("loading", "lazy");
   
@@ -58,4 +58,3 @@ function displayCompanies(company) {
     display.classList.add("list");
     display.classList.remove("grid");
   }
-  
