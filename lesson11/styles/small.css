@@ -590,3 +590,22 @@ form label.top input:required:valid{
 
 }
 
+.dir_main {
+  display: inline;
+  text-align: center;
+  padding: 10px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 5px;
+  text-align: center;
+ 
+ 
+}
+
+.cards section {
+  border: 1px groove #136a9c;
+  margin: 10px;
+}
