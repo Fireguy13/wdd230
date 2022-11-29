@@ -1,17 +1,20 @@
 {
     "companies": [
-      { "logo": "https://placebear.com/g/200/300",
+      { 
+        "logo": "https://placekitten.com/g/200/300",
         "h2": "Bear",
         "address": "123 Eldon Shoals",
         "phone": "1-467-432-1254 ",
-        "url": "tad78@example.net"       
+        "url": "tad78@example.net", 
+        "membership": "gold"      
         
       },
       { "logo": "https://placekitten.com/g/200/300",
         "h2": "Cat",
         "address": "9763 Kautzer Square",
         "phone": "1-505-547-9096",
-        "url": "vilma23@example.net"        
+        "url": "vilma23@example.net", 
+        "membership": "silver"             
         
       },
       {
@@ -19,7 +22,8 @@
         "h2": "Dog",
         "address": "7180 Gleason Run",
         "phone": "1-428-200-9097",
-        "url": "bernice69@example.com"
+        "url": "bernice69@example.com", 
+        "membership": "silver"      
         
       },
       {
@@ -27,14 +31,16 @@
         "h2": "Kitten",
         "address": "123 Eldon Shoals",
         "phone": "1-467-432-1254 ",
-        "url": "tad78@example.net"        
+        "url": "tad78@example.net", 
+        "membership": "bronze"              
       },
       { 
         "logo": "https://www.placemonkeys.com/500/350",
         "h2": "Monkey",
         "address": "7180 Gleason Run",
         "phone": "1-428-200-9097",
-        "url": "bernice69@example.com"
+        "url": "bernice69@example.com", 
+        "membership": "silver"      
         
 
       },
@@ -43,7 +49,8 @@
         "h2": "Fun Bear",
         "address": "34164 Melisa Mount Apt. 623",
         "phone": "(565) 477-8691",
-        "url": "kaley.shanahan@example.net"
+        "url": "kaley.shanahan@example.net", 
+        "membership": "gold"      
         
       },
       {
@@ -51,21 +58,24 @@
         "h2": "Sunny",
         "address": "408 Christopher Streets",
         "phone": "1-825-839-6916 ",
-        "url": "kadin.nader@example.org"        
+        "url": "kadin.nader@example.org" , 
+        "membership": "bronze"             
       },
       {
         "logo": "https://place-puppy.com/300x300",
         "h2": "Pfannerstill-Schinner",
         "address": "7668 Maxine Dale Suite 130",
         "phone": "1-753-381-7366",
-        "url": "myriam46@example.net"        
+        "url": "myriam46@example.net", 
+        "membership": "gold"              
       },
       {
         "logo": "https://www.placemonkeys.com/500/350",
         "h2": "King Louis",
         "address": "34164 Melisa Mount Apt. 623",
         "phone": "(565) 477-8691",
-        "url": "kaley.shanahan@example.net"
+        "url": "kaley.shanahan@example.net", 
+        "membership": "silver"      
       }
       
     ]

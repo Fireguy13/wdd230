@@ -218,13 +218,23 @@ form label.sbs {
 }
 
 
-  
-  
-  
-  
-  
-  
-  
-  
+
+.discoverPics {
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-right: auto;
+  margin-left: auto;
+}
+.cards{
+  margin: 0 auto;
+  padding: 0;
+  display: grid;
+  grid-gap: 15px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  min-width: 275px;
+
+} 
+
+
   
   }
