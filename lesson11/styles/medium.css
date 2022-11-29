@@ -148,6 +148,7 @@ form label.top input, form label.top select {
 
   display: grid;
   grid-template-columns: 1fr 1fr;
+  
 }
 
 .contact {

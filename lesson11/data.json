@@ -1,8 +1,8 @@
 {
     "companies": [
       { 
-        "logo": "https://placekitten.com/g/200/300",
-        "h2": "Bear",
+        "logo": "https://placekitten.com/g/200/350",
+        "h2": "Shere Khan",
         "address": "123 Eldon Shoals",
         "phone": "1-467-432-1254 ",
         "url": "tad78@example.net", 
@@ -10,7 +10,7 @@
         
       },
       { "logo": "https://placekitten.com/g/200/300",
-        "h2": "Cat",
+        "h2": "Gentlemanist",
         "address": "9763 Kautzer Square",
         "phone": "1-505-547-9096",
         "url": "vilma23@example.net", 
@@ -18,8 +18,8 @@
         
       },
       {
-        "logo": "https://place-puppy.com/300x300",
-        "h2": "Dog",
+        "logo": "https://place-puppy.com/200x300",
+        "h2": "Civilianset",
         "address": "7180 Gleason Run",
         "phone": "1-428-200-9097",
         "url": "bernice69@example.com", 
@@ -28,15 +28,15 @@
       },
       {
         "logo": "https://placekitten.com/g/200/300",
-        "h2": "Kitten",
+        "h2": "Encitizen",
         "address": "123 Eldon Shoals",
         "phone": "1-467-432-1254 ",
         "url": "tad78@example.net", 
         "membership": "bronze"              
       },
       { 
-        "logo": "https://www.placemonkeys.com/500/350",
-        "h2": "Monkey",
+        "logo": "https://www.placemonkeys.com/200/300",
+        "h2": "Moody Moon",
         "address": "7180 Gleason Run",
         "phone": "1-428-200-9097",
         "url": "bernice69@example.com", 
@@ -62,7 +62,7 @@
         "membership": "bronze"             
       },
       {
-        "logo": "https://place-puppy.com/300x300",
+        "logo": "https://place-puppy.com/200x300",
         "h2": "Pfannerstill-Schinner",
         "address": "7668 Maxine Dale Suite 130",
         "phone": "1-753-381-7366",
@@ -70,7 +70,7 @@
         "membership": "gold"              
       },
       {
-        "logo": "https://www.placemonkeys.com/500/350",
+        "logo": "https://www.placemonkeys.com/200/350",
         "h2": "King Louis",
         "address": "34164 Melisa Mount Apt. 623",
         "phone": "(565) 477-8691",
