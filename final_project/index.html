@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <link rel="shortcut icon" href="images/favicon.ico">
+
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Final Project: Bountiful Foods </title>
+
+</head>
+
+<body>
+    <div class="heading-nav">
+
+        <header>
+
+            <div class="logo-box">
+                <h1 class="logo-text">Carlsbad Creamery</h1>
+                <a class="logo" href="index.html">
+                    <img src="images/33363.jpg" alt="logo" width="250">
+                </a>
+
+            </div>
+            <!-- <button id="headerBtn" onclick=""></button> -->
+
+            <nav>
+                <button id="hamburgerBtn"> <span>&#9776;</span><span>X</span></button>
+                <ul id="primaryNav">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="fresh.html">Fresh </a></li>
+                    <li><a href="about.html">About Us</a></li>
+                </ul>
+                <div class="navSocial">
+                    <a class="facebook" href="https://www.facebook.com/" target="_blank">
+                        <img src="images/facebook.png" alt="facebook" width="30">
+                    </a>
+                    <a class="twitrer" href="https://www.twitter.com/" target="_blank">
+                        <img src="images/twitter.png" alt="twitter" width="30">
+                    </a>
+                    <a href="https://instagram.com" target="_blank">
+                        <img src="images/instagram.png" alt="instagram icon" width="30">
+                    </a>
+                </div>
+
+            </nav>
+            <div class="bannerCarlsbad hidden-me hidden-sm">
+                <img class="banner-carsbad-home"
+                    src="images/shoreline_1920.jpg" alt="shore line">
+            </div>
+
+        </header>
+        <!-- business -->
+        <main class="homePage">
+
+
+            <div class="homeBox eventBox">
+                <h2>Carlsbad Creamery</h2>
+                <p>Carlsbad Creamery been serving the community for 15 years with the best fruit drink flavors. We pride
+                    ourselves having the healthiest
+                    and freshes fruits available on the mark. </p>
+            </div>
+
+            <div class="homeBox heroBox ">
+                <picture class="heroPhoto">
+                    <source media="(max-width:200px)" srcset="images/carlsbad.200.jpg">
+                    <source media="(max-width:400px)" srcset="images/carlsbad-400.jpg">
+                    <!-- <source media="(max-width:800px)" srcset="images/carlsbad.500.jpg"> -->
+                    <img src="images/carlsbad-400.jpg" alt="carlsbad">
+                </picture>
+
+            </div>
+            <div class="homeBox beachBox hidden-sm">
+                <picture class="beachPhoto">
+                    <source media="(max-width:200px)" srcset="images/carlsbad-california-200.jpg">
+                    <source media="(max-width:400px)" srcset="images/carlsbad-california-400.jpg">
+                    <!-- <source media="(max-width:800px)" srcset="images/carlsbad-california-800.jpg"> -->
+                    <img src="images/carlsbad-california-400.jpg" alt="beach">
+                </picture>
+
+            </div>
+            <div class="homeBox spotBox spots">
+                <div class="spotlight spot1">
+                    <h2>Our favorite combination to make the perfent drink</h2>
+                    <p>Tropical has banana ,mango kwi.</p>
+                    <p>Mango Fruit,mango, orange, peach.</p>
+                    <p>Berry Blast, ted grapes, raspberries, cranberries</p>
+                </div>
+
+            </div>
+
+            <div class="homeBox newsBox">
+                <h2>Fruit Drink </h2>
+                <p>Need a frash cooling drink, then come to our fruit drink bar and make the dirnk of your choice.</p>
+                <img src="images/116540-OOZKJ7-893.jpg" alt="drinks" width="250">
+
+                <li><a href="fresh.html">Let us take your order</a></li>
+
+
+            </div>
+
+            <div class="homeBox carlsbadBox hidden-sm">
+                <h2>Local Information </h2>
+                <p>Carlsbad is a city near San Diego, in California. It's known for Tamarack Surf Beach, backed by the
+                    Carlsbad Sea Wall, and secluded South Carlsbad State Beach. The Legoland California theme park
+                    includes rides, a water park and the SEA LIFE Aquarium. The Flower Fields is a seasonal attraction,
+                    with acres of flowers. </p>
+
+
+            </div> 
+
+            <div class="homeBox weatherBox">
+                <h2 class="weatherh2">Carlsbad Weather</h2>
+                <div class="weatherMain">
+
+                    <p class="temp">
+                        <span id="current-temp"></span>
+                        °F </p>
+                        <figure>
+                            <img id="weather-icon" class="weatherImg" src="">
+                        
+                    <figure>
+                        <img id="weather-icon" class="weatherImg" src="">
+                    </figure>
+                    <p class="wStatus"> <span id="current-description"></span>
+                    </p>
+                </div>
+                <div class="weatherMinor">
+                    <div class="sInput" role="separator">
+                        <p class="humidity">
+                            Humidity
+                            <span id="current_humidity"> </span>
+                            %
+                        </p>
+                    </div>
+                    <!-- <p class="speed">
+                        Wind Chill
+                        <span id="windChill"></span> -->
+                    <!-- </p> -->
+                </div>
+            </div>
+
+            <div class="homeBox joinBox hidden-sm">
+                <h2 class="fourday">Carlsbad Fourday Forecast</h2>
+
+
+                <div>
+                    <span id="day1"> </span><br /><br />
+                    <span id="day2"> </span><br /><br />
+                    <span id="day3"> </span><br /><br />
+                    <span id="day4"> </span><br />
+                    <br />
+
+
+
+                </div>
+            </div>
+
+        </main>
+        <footer>
+            <a class="footLogo" href="index.html">
+                <img src="images/33363.jpg" alt="footer logo" width="180">
+            </a>
+            <div class="footTop">
+                <div class="address">
+                    <p class="addLine1"> 2790 MADISON ST</p>
+                    <p class="addLine2">CARLSBAD, CA 92008-1732 USA </p>
+
+
+
+
+                </div>
+                <div class="emailPhone">
+                    <p class="phone">Tel: 555.555.5555</p>
+                    <p class="email">Email: fakemail@hotmail.com</p>
+                </div>
+                <div class="map">
+                    <a class="loc"
+                        href="https://www.google.com/maps/place/Carlsbad,+CA/@33.1215196,-117.287802,12z/data=!3m1!4b1!4m5!3m4!1s0x80dc73453f3bee59:0xa4cb5592fcf65d2f!8m2!3d33.1580933!4d-117.3505939"
+                        target="_blank">Location Map </a>
+                </div>
+            </div>
+
+
+
+            <div class="footer">
+                <span id="year"> &copy; 2022 | Shane Fowles | Utah | <span id="lastModified"></span>
+            </div>
+
+
+
+
+
+        </footer>
+        <script src="scripts/main2.js"></script>
+        <script src="scripts/weather.js"></script>
+
+    </div>
+</body>
+
+</html>

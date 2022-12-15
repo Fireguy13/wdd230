@@ -1,0 +1,132 @@
+/** Media Queries for tablet view **/
+@media (min-width: 37.5em) {  
+  /********************** HOME PAGE ********************/ 
+  
+  /**** GRID LAYOUT ****/
+  
+  .homeBox{
+    margin: 0;
+  }
+  .homePage{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 1rem;
+  }
+  
+  .eventBox{
+    grid-column: 1;
+    grid-row:1;
+   
+    }
+
+  .heroBox{
+    grid-column: 2;
+    grid-row: 1;
+  }
+
+
+
+  .beachBox{
+    display: inline;
+    grid-column: 1;
+    grid-row: 2;
+  }
+  
+  main picture.heroPhoto .beachPhoto img{max-height: 399px;} 
+  
+  .newsBox{
+    grid-column: 2;
+    grid-row: 2;
+  }
+
+  .weatherBox{
+    grid-column: 2;
+    grid-row: 3;
+
+  } 
+
+  
+  .spotBox{
+    grid-column: 1;
+    grid-row: 3;
+  }
+  
+  /* .spots {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: minmax(200px, auto);
+  } */
+  
+  .spot1{
+    grid-column: 1;
+  }
+  
+  
+
+  .hidden-me{
+    display: none;
+  }
+  
+  
+  /***** FOOTER ****/
+  .footTop {
+    display: flex;
+    margin-top: 20px;
+  }
+  
+  .footLogo{
+  
+    margin: 60px 0;
+    padding: 60px 40px;
+  }
+  
+  .footBot {
+    display: flex;
+  }
+  
+  
+  /*******HIDDEN ELEMENTS ON MED VIEW *********/
+  
+  .hiFhide {
+    display: none;
+  }
+  
+  .headerBtn {
+    display: flex;
+    text-align: center;
+  }
+  .discover_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto 1fr;
+}
+
+
+.contactPage {
+  display: grid;
+  grid-template-columns: 2fr 16fr;  
+}
+
+.contact {
+  grid-row:1;
+  grid-column: 1/3;
+}
+.map{
+  grid-row: 3;
+  grid-column: 1;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+
+.location-photo{
+  grid-row: 2;
+  grid-column: 1;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+
+}
